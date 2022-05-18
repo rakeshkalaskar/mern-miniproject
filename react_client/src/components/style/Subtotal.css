@@ -1,0 +1,36 @@
+.subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width: 100%;
+    height: auto;
+    background-color: rgb(236, 208, 208);
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    padding: 5px;
+}
+.proceed_button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.amount{
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .subtotal{
+        font-size: smaller;
+    }
+    .amount{
+        font-size: smaller;
+    }.proceed_button{
+        padding: 1px 3px;
+        font-size: smaller;
+    }
+}

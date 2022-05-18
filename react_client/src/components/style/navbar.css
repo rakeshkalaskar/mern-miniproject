@@ -1,0 +1,52 @@
+
+.topnav {
+    overflow: hidden;
+    padding: 0px;
+  }
+  
+  .topnav a {
+    float: left;
+    left: 200px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  .topnav .login-container button {
+    float: right;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .login-container button:hover {
+    background-color: green;
+  }
+  #icon_sup{
+      padding-left: 3px;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+  }
